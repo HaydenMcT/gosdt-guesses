@@ -1,0 +1,7 @@
+{
+    "regularization": 0.02,
+    "depth_budget": 6,
+    "time_limit": 60,
+    "verbose": true,
+    "similar_support": false
+}

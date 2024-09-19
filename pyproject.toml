@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "scikit-build",
+    "setuptools",
+    "wheel",
+    "distro",
+    "attrs",
+    "packaging>=20.9",
+    "editables==0.2",
+    "pandas",
+    "scikit-learn",
+    "sortedcontainers",
+    "gmpy2==2.2.0a1;python_version=='3.12'",
+    "gmpy2;python_version<'3.12'",
+    "matplotlib"
+]
+build-backend = "setuptools.build_meta"
